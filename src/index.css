@@ -136,9 +136,6 @@ a { text-decoration: none; color: inherit; transition: color 0.3s; }
     text-align: center;
   }
 
-  .content-section{
-    margin-top: -165px;
-  }
 }
 
 
@@ -230,7 +227,7 @@ a { text-decoration: none; color: inherit; transition: color 0.3s; }
 
 /* Mobile */
 @media (max-width: 600px) {
-  .hero-main-content { margin-left: 70px; }
+  .hero-main-content { margin-left: 0px; }
   .greeting-text {
     font-size: clamp(1.8rem, 10vw, 3.5rem);
     margin-top: 15px;
