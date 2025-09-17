@@ -230,9 +230,9 @@ a { text-decoration: none; color: inherit; transition: color 0.3s; }
   .hero-main-content { margin-left: 65px; }
   .greeting-text {
     font-size: clamp(1.8rem, 8vw, 3.5rem);
-    margin-top: 15px;
+    margin-top: 106px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-80%);
     text-align: center;
   }
 }
