@@ -2,6 +2,8 @@
 import React, { Suspense, lazy } from 'react';
 import './index.css';
 
+import { Analytics } from '@vercel/analytics/react';
+
 // Import Components
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
@@ -49,6 +51,7 @@ export default function App() {
         <p>© {new Date().getFullYear()} Rakesh Kumar Sharma. All rights reserved.</p>
       </footer>
       <ScrollToTop />
+      <Analytics /> 
     </div>
   );
 }
